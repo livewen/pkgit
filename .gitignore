@@ -2,5 +2,7 @@
 /data/config.php.orig
 /data/config.php.xr
 /data/install.lock
+.env
+.idea
 
 

@@ -3,7 +3,8 @@ defined('IN_IA') or exit('Access Denied');
 
 $config = array();
 
-$config['db']['master']['host'] = '127.0.0.1';
+
+$config['db']['master']['host'] = '120.26.209.11';
 $config['db']['master']['username'] = 'paoku';
 $config['db']['master']['password'] = 'dY38gjm3dkk88';
 $config['db']['master']['port'] = '3306';
@@ -11,6 +12,15 @@ $config['db']['master']['database'] = 'paoku';
 $config['db']['master']['charset'] = 'utf8';
 $config['db']['master']['pconnect'] = 0;
 $config['db']['master']['tablepre'] = 'ims_';
+
+//$config['db']['master']['host'] = '127.0.0.1';
+//$config['db']['master']['username'] = 'paoku';
+//$config['db']['master']['password'] = 'dY38gjm3dkk88';
+//$config['db']['master']['port'] = '3306';
+//$config['db']['master']['database'] = 'paoku';
+//$config['db']['master']['charset'] = 'utf8';
+//$config['db']['master']['pconnect'] = 0;
+//$config['db']['master']['tablepre'] = 'ims_';
 
 $config['db']['slave_status'] = false;
 $config['db']['slave']['1']['host'] = '';
